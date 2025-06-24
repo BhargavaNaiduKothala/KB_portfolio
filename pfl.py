@@ -25,13 +25,12 @@ personal_info = {
     "title": "AI/ML Enthusiast & Data Science | Python Developer",#"AI/ML & Data Science | Python Developer"
     
     "summary": (
-        "Summary:-\n\n"
+    
         "👉 Driven by curiosity and precision, I build intelligent systems using Python, ML, and SQL. \n\n"
         "👉 I love exploring datasets, uncovering hidden insights, and using AI to make smart, data-driven decisions\n\n"
         "👉 Skilled in NLP, Neural Networks, and solving real-world problems with data.\n\n"
         
     ),
-
     "email": "bhargavnaidu2333@gmail.com",
     "linkedin": "https://www.linkedin.com/in/bhargavanaidu-kothala/",
     "github": "https://github.com/BhargavaNaiduKothala"
@@ -40,8 +39,16 @@ personal_info = {
 education = [
     {
         "degree": "B.Tech in Electrical and Electronics Engineering",
-        "institution": "College: Miracle educational society group of institutions",
+        "institution": " Miracle Educational Society Group Of Institutions",
         "year": "2019 - 2022",  
+        "name": " **Optimal placement of  capacitor for loss reduction in Distribution system Using EPSO** ",
+        "desc": (
+            "Successfully implemented the EPSO algorithm to reduce electric losses in the distribution system by 15%,resulting in significant cost saving for the company.\n"
+            "Designed and installed shunt capacitors that improved  power factor and reduced harmonic distribution in system ,resulting in improved power quality for customers.\n"
+            "Developed software tools in c programming for data analysis and Simulation, which helped to identify and trouble shoot system issues more efficiently.\n"
+            "Collaborated with a team of engineers to develop and implement system upgrades, resulting in improved reliability and reduced downtime. "
+
+        )
     },
     
 ]
@@ -57,82 +64,113 @@ skills = {
     "Pandas/Numpy": 85
 }
 
-# experience = [
-#     {"year": "2025 - Present", "role": "SOftware Engineering", "company": "Lyrostech", "description": "Handled data analysis, Developed ML models, Done projects "},
-
-#     {"year": 'Feb 2024  -Nov 2024', "role": "Freelance Content Reviewer", "company": "Centific", "description": "Developed ML models for clients."},
-
-#     {"year": "2022 - 2024", "role": "Technical Assistant", "company": "RACEnergy", "description": "Handled data entry, troubleshooting, and documentation."}
-# ]
-
-
-
 experience = [
     {
         "year": "Feb 2025 - Present",
         "role": "Software Engineer",
-        "company": "Lyrostech",
-        "description": "Handled data analysis, developed ML models, and executed end-to-end projects."
+        "company": "Lyrostech"
     },
     
+    
 ]
-
-projects = [
+exps = [
     {
-        "name": "🎓 Student Grading System",
+        "name": "Machine Learning & AI Development",
         "desc": (
-            "- Developed a Tkinter-based GUI to manage student marks\n"
-            "- Implemented role-based access for admins and teachers\n"
-            "- Used Pandas for data handling and predictive grade analysis"
+            "- Designed and implemented end-to-end machine learning pipelines (data collection, preprocessing, feature engineering, model training, and evaluation) for real-world AI applications.\n"
+            "- Developed and fine-tuned supervised & unsupervised models (Regression, Classification, Clustering, NLP) using Scikit‑learn, TensorFlow, and PyTorch, improving model accuracy by 10%.\n"
+            "- Optimized AI workflows by applying hyperparameter tuning, cross-validation, and ensemble techniques, reducing inference time by 12%."
         )
     },
     {
-        "name": "🏠 Airbnb Price Prediction",
+        "name": "Data Engineering & Analytics",
         "desc": (
-            "- Built regression models to predict listing prices\n"
-            "- Analyzed key features affecting price fluctuations\n"
-            "- Enabled data-driven pricing recommendations"
+            "- Built automated data pipelines (Pandas, NumPy, SQL) for cleaning and structuring large‑scale datasets, enhancing data processing efficiency by 15%.\n"
+            "- Created interactive data visualizations (Matplotlib, Seaborn, Plotly) to extract insights and support decision‑making.\n"
+            "- Performed statistical analysis (hypothesis testing, A/B testing) to validate model performance and business impact."
         )
     },
     {
-        "name": "🎬 Movie Recommendation System",
+        "name": "MLOps & Deployment",
         "desc": (
-            "- Utilized NLP techniques like CountVectorizer and TF-IDF\n"
-            "- Calculated cosine similarity for personalized recommendations\n"
-            "- Created a scalable model to suggest movies based on user preferences"
+            "- Deployed ML models as scalable APIs using Flask, FastAPI, and Streamlit for user‑friendly interfaces.\n"
+            "- Containerized applications with Docker and orchestrated microservices using Minikube (Kubernetes).\n"
+            "-Managed CI/CD workflows via GitHub Actions and cloud deployment on Render."
         )
     },
     {
-        "name": "🔍 Customer Segmentation using Machine Learning and python",
-        "desc": (
-            "- Applied K-Means clustering to group customers\n"
-            "- Analyzed behavioral patterns and demographics\n"
-            "- Supported targeted marketing and business strategies"
+        "name": "Collaboration & Best Practices",
+        "desc":( 
+            "-Followed Agile methodologies for project tracking (Jira, GitHub Projects).\n"
+            "-Documented experiments using MLflow/Weights & Biases (W&B) for reproducibility.\n"
+            "-Conducted code reviews and maintained version control (Git/GitHub).\n"
         )
     }
 ]
 
-# projects = [
-#     {"name": " Student Grading System", "desc": "Tkinter app with Pandas, user roles, predictive analysis."},
-#     {"name": " Airbnb Price Prediction", "desc": "ML models to forecast listing prices."},
-#     {"name": " Movie Recommendation", "desc": "Collaborative filtering using cosine similarity."},
-#     {"name": " Customer Segmentation using Machine Learning", "desc": "Applied clustering algorithms (e.g., K-Means) to segment customers based on behavioral patterns and demographics."}
-
-# ]
-
-# --- Sidebar Navigation ---
-# st.sidebar.image("https://easydrawingguides.com/wp-content/uploads/2019/01/how-to-draw-thors-hammer-featured-image-1200.png"
-# , width=140)
-
- 
 
 
-# st.sidebar.title("📌 Navigation")
-# page = st.sidebar.radio("", ["About Me", "Skills", "Experience", "Projects", "Contact"])
 
 
-# ------------side bar navigation 1, check up for the new one----
-st.sidebar.title("📌 Navigation")
+
+projects = [
+    {
+        "name": "🎓 Student Grading System",
+        "overview": (
+            "A desktop application for managing student records and roles, "
+            "featuring predictive analytics for grades."
+        ),
+        "desc": (
+            "- Developed a Tkinter-based GUI to manage student marks\n"
+            "- Implemented role-based access for admins and teachers\n"
+            "- Used Pandas for data handling and predictive grade analysis"
+        ),
+        "tools": ["Python", "Tkinter", "Pandas", "Scikit-learn", "SQLite", "pytest"]
+    },
+    {
+        "name": "🏠 Airbnb Price Prediction",
+        "overview": (
+            "A data-driven model to predict Airbnb listing prices, "
+            "highlighting key factors that influence pricing."
+        ),
+        "desc": (
+            "- Built regression models to predict listing prices\n"
+            "- Analyzed key features affecting price fluctuations\n"
+            "- Enabled data-driven pricing recommendations"
+        ),
+        "tools": ["Python", "Pandas", "Scikit-learn", "XGBoost", "Matplotlib", "Jupyter"]
+    },
+    {
+        "name": "🎬 Movie Recommendation System",
+        "overview": (
+            "An NLP‑based recommendation engine suggesting movies "
+            "based on user preferences using content similarity."
+        ),
+        "desc": (
+            "- Utilized NLP techniques like CountVectorizer and TF-IDF\n"
+            "- Calculated cosine similarity for personalized recommendations\n"
+            "- Created a scalable model to suggest movies based on user preferences"
+        ),
+        "tools": ["Python", "Scikit-learn", "NLTK", "Pandas", "Streamlit", "Docker"]
+    },
+    {
+        "name": "🔍 Customer Segmentation",
+        "overview": (
+            "A clustering-driven segmentation pipeline that "
+            "segments customers for tailored marketing strategies."
+        ),
+        "desc": (
+            "- Applied K-Means clustering to group customers\n"
+            "- Analyzed behavioral patterns and demographics\n"
+            "- Supported targeted marketing and business strategies"
+        ),
+        "tools": ["Python", "Pandas", "Scikit-learn", "Seaborn", "Plotly", "Streamlit"]
+    }
+]
+
+
+
+st.sidebar.title("📌 Bhargava Naidu Kothala")
 
 if 'page' not in st.session_state:
     st.session_state.page = "About Me"
@@ -172,9 +210,11 @@ if page == "About Me":
 elif page == "Education":
     st.header("🎓 Education")
     for edu in education:
-        st.subheader(f"{edu['institution']}")
-        st.markdown(f"{edu['degree']}")
+        st.subheader(f"{edu['degree']}")
+        st.markdown(f"{edu['institution']}")
         st.markdown(f"📅 {edu['year']}")
+        st.markdown(f" ***ACADAMIC PROJECT:*** {edu['name']}")
+    
         
         #st.info(edu['details'])
         st.markdown("---")
@@ -185,6 +225,7 @@ elif page == "Skills":
     for skill, value in skills.items():
         st.markdown(f"{skill}")
         st.progress(value)
+    
 
 # --- Experience ---
 elif page == "Experience":
@@ -194,8 +235,11 @@ elif page == "Experience":
         with st.container():
             st.subheader(f"{exp['role']} @ {exp['company']}")
             st.markdown(f"📅 {exp['year']}")
-            st.write(exp['description'])
+            # st.write(exp['description'])
             st.markdown("---")
+    for proj in exps:
+        st.markdown(f"#### {proj['name']}")
+        st.success(proj['desc'])
 
 # elif page == "Experience":
 #     st.header("💼 Experience Timeline")
@@ -210,7 +254,9 @@ elif page == "Projects":
     st.header("🛠 Projects Showcase")
     for proj in projects:
         st.markdown(f"#### {proj['name']}")
-        st.success(proj['desc'])
+        st.markdown(f"Overview: {proj['overview']}")
+        st.markdown(f"{proj['desc']}")
+        st.success(f"Tools: {proj['tools']}")
 
 # --- Contact ---
 elif page == "Contact":
@@ -227,11 +273,4 @@ elif page == "Contact":
     st.markdown("\n\n 💡Tip: Replace your email with the one you want to receive messages on.")
 
 # --- Footer ---
-st.markdown("---")
-# st.write("Crafted with precision and passion for 💖Python and Data Science. © 2025 Gurunath Tokala")
-# st.write("Data speaks, Python listens, and 💖 I build. © 2025 Gurunath Tokala")
-st.markdown("""
-<div style="text-align:center; font-size:16px;">
-   
-</div>
-""", unsafe_allow_html=True)
+
